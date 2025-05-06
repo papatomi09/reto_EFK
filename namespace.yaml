@@ -57,7 +57,7 @@ data:
       format syslog
     </source>
 
-    <match **>
+    <match system.syslog>
       @type elasticsearch
       host elasticsearch
       port 9200
